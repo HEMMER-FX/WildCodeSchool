@@ -1,0 +1,13 @@
+{% extends 'layout.html.twig' %}
+
+{% block content %}
+    <div class="main-container" style="background-color:{{background}}">
+        <h1> Nom du cupcake : <br>{{ cupcake.name }}</h1>
+        <h3> Url du cupcake : <br>{{ cupcake.url }}</h3>
+        <img src="{{cupcake.url}}" style="weight:100px;width:100px;" alt={{cupcake.name}}>
+        <h3> Couleurs du cupcake : </h3><br>
+            <li>{{ cupcake.color1 }}</li>
+            <li>{{ cupcake.color2 }}</li>
+            <li>{{ cupcake.color3 }}</li>
+    </div>
+{% endblock %}
