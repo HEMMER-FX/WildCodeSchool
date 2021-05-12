@@ -13,7 +13,7 @@
  *
  */
 
-define('APP_DB_USER', 'Enrgy');
-define('APP_DB_PWD', 'MisterFix.57!:;,');
+define('APP_DB_USER', 'USER');
+define('APP_DB_PWD', 'PASS');
 define('APP_DB_HOST', 'localhost');
-define('APP_DB_NAME', 'Checkpoint2');
+define('APP_DB_NAME', 'BDDNAME');
